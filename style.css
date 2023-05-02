@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(img/loading.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+}
+
+img{
+    width: 200px;
+    cursor: pointer;
+}
+
+h1{
+    margin-left: 10px;
+    color: #ff073a;
+    text-align: center;
+}
+
+.container li p {
+    max-width: 210px;
+    margin-right: 10px;
+    color: #ff073a;
+}
+
+.vida{
+    color: #ff073a;
+}
+
